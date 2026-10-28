@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Runtime data (uploads, processed matches, logs, database)
+data/*
+!data/.gitkeep
+
+# Models: large, licensed separately — see models/README.md
+models/*.pt
+*.pt
+
+# Node
+node_modules/
+apps/web/dist/
+
+# Environment & OS
+.env
+.DS_Store
+Thumbs.db
